@@ -7,6 +7,7 @@
 .mtj.tmp/
 
 *.jar
+!*gradle-wrapper.jar
 *.war
 *.nar
 *.ear
@@ -23,7 +24,7 @@ build/*
 *.txt
 !changelogs/*
 .gradle/*
-!.gradle/8.13/*
+!.gradle/8.14/*
 
 mod/forge+neo_1-20-1/build/*
 mod/forge+neo_1-20-1/build

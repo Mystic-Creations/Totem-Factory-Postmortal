@@ -9,10 +9,8 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class TfItems {
-    // Register items using NeoForge's DeferredRegister for items
     public static final DeferredRegister<Item> REGISTER = DeferredRegister.create(Registries.ITEM, TotemFactory.MODID);
 
-    // Register individual items with their corresponding class constructors
     public static final DeferredHolder<Item, TotemHead> TOTEM_HEAD = REGISTER.register("totem_head", TotemHead::new);
     public static final DeferredHolder<Item, IncompleteTotemHead> INCOMPLETE_TOTEM_HEAD = REGISTER.register("incomplete_totem_head", IncompleteTotemHead::new);
     public static final DeferredHolder<Item, TotemHeadCasing> TOTEM_HEAD_CASING = REGISTER.register("totem_head_casing", TotemHeadCasing::new);

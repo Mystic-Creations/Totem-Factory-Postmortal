@@ -13,8 +13,6 @@ public class TotemFactory {
 	public static final String MODID = "totemfactory";
 
 	public TotemFactory(IEventBus modBus) {
-
-		// register DeferredRegister objects to the mod's event bus
 		TfItems.REGISTER.register(modBus);
 		TfTabs.REGISTER.register(modBus);
 	}
