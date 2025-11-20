@@ -61,7 +61,7 @@ dependencies {
 }
 
 tasks.named('jar', Jar) {
-    destinationDirectory.set(layout.projectDirectory.dir('../.builtJars'))
+    destinationDirectory.set(layout.projectDirectory.dir('../../.builtJars'))
     archiveFileName.set("${archivesBaseName}-${version}.jar")
 }
 

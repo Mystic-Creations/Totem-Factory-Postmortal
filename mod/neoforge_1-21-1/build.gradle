@@ -115,9 +115,9 @@ publishing {
 }
 
 tasks.named('jar', Jar).configure {
-    destinationDirectory.set(layout.projectDirectory.dir('../.builtJars'))
+    destinationDirectory.set(layout.projectDirectory.dir('../../.builtJars'))
     archiveBaseName.set("TotemFactory")
-    archiveVersion.set(project.version.toString()) // optional — Gradle will use project.version by default
+    archiveVersion.set(project.version.toString())
 }
 
 tasks.withType(JavaCompile).configureEach {
