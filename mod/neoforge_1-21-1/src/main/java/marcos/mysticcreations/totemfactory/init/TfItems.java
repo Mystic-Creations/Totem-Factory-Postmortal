@@ -1,12 +1,10 @@
 package marcos.mysticcreations.totemfactory.init;
 
-import marcos.mysticcreations.totemfactory.equipment.TumbagaSword;
 import marcos.mysticcreations.totemfactory.item.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import marcos.mysticcreations.totemfactory.TotemFactory;
 import marcos.mysticcreations.totemfactory.item.*;
-import net.minecraft.world.item.SwordItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -25,4 +23,5 @@ public class TfItems {
     public static final DeferredHolder<Item, IncompleteTotemBody> INCOMPLETE_TOTEM_BODY = REGISTER.register("incomplete_totem_body", IncompleteTotemBody::new);
     public static final DeferredHolder<Item, IncompleteTotemBodyCasing> INCOMPLETE_TOTEM_BODY_CASING = REGISTER.register("incomplete_totem_body_casing", IncompleteTotemBodyCasing::new);
     public static final DeferredHolder<Item, InactiveTotem> INACTIVE_TOTEM = REGISTER.register("inactive_totem", InactiveTotem::new);
+    public static final DeferredHolder<Item, IncompleteTotemOfUndying> INCOMPLETE_TOTEM_OF_UNDYING = REGISTER.register("incomplete_totem_of_undying", IncompleteTotemOfUndying::new);
 }

@@ -22,4 +22,5 @@ public class TfItems {
     public static final RegistryObject<Item> INCOMPLETE_TOTEM_BODY = REGISTER.register("incomplete_totem_body", IncompleteTotemBody::new);
     public static final RegistryObject<Item> INCOMPLETE_TOTEM_BODY_CASING = REGISTER.register("incomplete_totem_body_casing", IncompleteTotemBodyCasing::new);
     public static final RegistryObject<Item> INACTIVE_TOTEM = REGISTER.register("inactive_totem", InactiveTotem::new);
+    public static final RegistryObject<Item> INCOMPLETE_TOTEM_OF_UNDYING = REGISTER.register("incomplete_totem_of_undying", IncompleteTotemOfUndying::new);
 }

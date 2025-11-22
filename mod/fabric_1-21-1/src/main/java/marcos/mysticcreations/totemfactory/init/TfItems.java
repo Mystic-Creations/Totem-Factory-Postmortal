@@ -21,6 +21,7 @@ public class TfItems {
 	public static Item TOTEM_BODY_CASING;
 	public static Item INCOMPLETE_TOTEM_HEAD_CASING;
 	public static Item INCOMPLETE_TOTEM_BODY_CASING;
+    public static Item INCOMPLETE_TOTEM_OF_UNDYING;
 
 	public static void load() {
         TUMBAGA_ALLOY = register("tumbaga_alloy", new TumbagaAlloy());
@@ -35,6 +36,7 @@ public class TfItems {
 		INCOMPLETE_TOTEM_BODY = register("incomplete_totem_body", new IncompleteTotemBody());
 		INCOMPLETE_TOTEM_BODY_CASING = register("incomplete_totem_body_casing", new IncompleteTotemBodyCasing());
 		INACTIVE_TOTEM = register("inactive_totem", new InactiveTotem());
+        INCOMPLETE_TOTEM_OF_UNDYING = register("incomplete_totem_of_undying", new IncompleteTotemOfUndying());
 	}
 
 	public static void clientLoad() {}
