@@ -1,10 +1,12 @@
 package marcos.mysticcreations.totemfactory.init;
 
+import marcos.mysticcreations.totemfactory.equipment.TumbagaSword;
 import marcos.mysticcreations.totemfactory.item.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import marcos.mysticcreations.totemfactory.TotemFactory;
 import marcos.mysticcreations.totemfactory.item.*;
+import net.minecraft.world.item.SwordItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
