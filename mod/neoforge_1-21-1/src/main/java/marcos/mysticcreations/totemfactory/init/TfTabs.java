@@ -13,8 +13,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class TfTabs {
     public static final DeferredRegister<CreativeModeTab> REGISTER = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TotemFactory.MODID);
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> TAB_TOTEM_FACTORY = REGISTER.register("totem_factory",
-        () -> CreativeModeTab.builder()
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> TAB_TOTEM_FACTORY = REGISTER.register("totem_factory", () -> CreativeModeTab.builder()
             .title(Component.translatable("item_group." + TotemFactory.MODID + ".totem_factory"))
             .icon(() -> new ItemStack(Items.TOTEM_OF_UNDYING))
             .displayItems((parameters, tabData) -> {
